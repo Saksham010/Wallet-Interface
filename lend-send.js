@@ -1,4 +1,4 @@
-let web3 = new Web3(new Web3.providers.HttpProvider("HTTP://127.0.0.1:7545"));
+let web3 = new Web3(new Web3.providers.HttpProvider("HTTP://127.0.0.1:7545"));  //Replace with the rpc server provided by your Ganache
 
 window.onload = () =>{
     let from_input = document.querySelector("#from");
